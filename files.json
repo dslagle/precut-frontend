@@ -1,0 +1,2126 @@
+[
+    {
+        "source": "﻿Library\\_setup_\\rm_folder_structure.txt",
+        "dest": "_setup_"
+    },
+    {
+        "source": "Library\\_setup_\\clients\\clients_setup.txt",
+        "dest": "_setup_\\clients"
+    },
+    {
+        "source": "Library\\_setup_\\database\\db_setup.sql",
+        "dest": "_setup_\\database"
+    },
+    {
+        "source": "Library\\_setup_\\NS\\K#0316_RMNetSolve_Enable_RPC.reg_example",
+        "dest": "_setup_\\NS"
+    },
+    {
+        "source": "Library\\_setup_\\NS\\RMNS_setup.reg_example",
+        "dest": "_setup_\\NS"
+    },
+    {
+        "source": "Library\\_setup_\\NS\\rmns_setup.txt",
+        "dest": "_setup_\\NS"
+    },
+    {
+        "source": "Library\\_setup_\\QS\\ETA_Calculation.sql",
+        "dest": "_setup_\\QS"
+    },
+    {
+        "source": "Library\\_setup_\\QS\\fixes_for_rmqs_usage.sql",
+        "dest": "_setup_\\QS"
+    },
+    {
+        "source": "Library\\_setup_\\QS\\rmqs_setup.txt",
+        "dest": "_setup_\\QS"
+    },
+    {
+        "source": "Library\\_setup_\\QS\\rm_hkcu_for_rmqs.reg_example",
+        "dest": "_setup_\\QS"
+    },
+    {
+        "source": "Library\\_setup_\\QS\\rm_hklm_for_rmqs.reg_example",
+        "dest": "_setup_\\QS"
+    },
+    {
+        "source": "Library\\_setup_\\registry\\rm_agency_database_HKEY_LOCAL_MACHINE.reg_template",
+        "dest": "_setup_\\registry"
+    },
+    {
+        "source": "Library\\_setup_\\registry\\rm_agency_database_HKEY_LOCAL_MACHINE_64bit.reg_template",
+        "dest": "_setup_\\registry"
+    },
+    {
+        "source": "Library\\_setup_\\registry\\rm_agency_database_HKEY_LOCAL_MACHINE_NoDBC.reg_template",
+        "dest": "_setup_\\registry"
+    },
+    {
+        "source": "Library\\_setup_\\registry\\rm_agency_database_HKEY_LOCAL_MACHINE_NoDBC_64bit.reg_template",
+        "dest": "_setup_\\registry"
+    },
+    {
+        "source": "Library\\_setup_\\registry\\rm_HKEY_CURRENT_USER.reg_template",
+        "dest": "_setup_\\registry"
+    },
+    {
+        "source": "Library\\_setup_\\registry\\rm_HKEY_LOCAL_MACHINE.reg_template",
+        "dest": "_setup_\\registry"
+    },
+    {
+        "source": "Library\\_setup_\\registry\\rm_HKEY_LOCAL_MACHINE_64bit.reg_template",
+        "dest": "_setup_\\registry"
+    },
+    {
+        "source": "Library\\_setup_\\registry\\rm_HKEY_CURRENT_USER_64bit.reg_template",
+        "dest": "_setup_\\registry"
+    },
+    {
+        "source": "Library\\_setup_\\TS\\ts_setup.txt",
+        "dest": "_setup_\\TS"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMBridge32.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessor.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessor.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessor_a.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessor_a.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTPCOMBrg.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTPCOMBrg.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessorJavaBridge32.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessorJavaBridge32.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessorJavaBridge64.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessorJavaBridge64.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Suite.6.x\\Library\\RMAFCSDK.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMBridge32.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMBridge32.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\RMVersionUtil.exe",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Geo.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GeoUtil.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CmpBase.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Debug.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GenericEnv.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DisplayError.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DisplayError.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Security.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Security.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8HostEnv.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PluginBase.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DateTimePicker.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8StdUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VBHooks.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Warehouse.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8QueryCombo.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MultiSelCombo.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8SearchControl.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ComboOverride.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Coordination.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Containers.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Rse.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RseServerClient.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ODBC.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TreeCtrls.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DataAccess.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RegisteredEntities.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DBResolver.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Bus.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusCustomers.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusNotifications.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusSettings.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusMessageBoard.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusVehMaintenance.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CustomerMis.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Availability.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ScheduleForDay.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Map.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapAVL.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapAVL2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapAVL2.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AddressGeo.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AddressSelect.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8IRptFntEnd.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8IData.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Suspension.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DataItemsGrid.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PluginFrm.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFntEnd.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptMultAgy.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VersionInfo.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusAddress.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusCriteria.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusFxRt.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusFxRt2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusMesssageEditor.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusZone.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusZone2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusTrip.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapDataUtil.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapInterface.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapSymbol.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RegEx.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RegEx.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TripPlanner.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TripPlanner.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusRSE.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusRSE.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RSESettings.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RSESettings.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Debug2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFntEndOTP.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFntEndUsers.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFEDTRMultiSel.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFEDTRSingSel.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFEManifMulti.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFntEndInvoice.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFEManifest.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFEDateVar.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptDTRTripleSel.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFERMDirdb.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ReportViewerCtl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ReportViewerCtl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusSettingsForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MdiControls.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusCoord.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AlertsUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AlertsUi.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusAlerts.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusAudioFile.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8WizardControl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PluginFrmForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PluginFrmForCSharp_a.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PluginFrmForCSharp_a.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusDRActual.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusUser.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Toolbar.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Toolbar.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8UserFields.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8UserFields.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GateUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GateUi.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusRmGate.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8NotificationUI.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehicleInspectionUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehicleInspectionUi.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehicleInspectionUi_a.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehicleInspectionUi_a.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusVehicleInspection.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusDocument.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusDocument.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusIncidents2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DocumentUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8LinkForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8LinkForCSharp.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusResources.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusWorkOrder.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ObjectPropertyEditor.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FleetComponentUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FleetComponentUi.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FleetUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FleetUi.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MultiSelectEditor.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MultiSelectEditor.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehicleUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehicleUi.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TemplateProcessorUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TemplateProcessorUi.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TemplateProcessorUi_a.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TemplateProcessorUi_a.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusVehicle.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8SchedulingEngineUI.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8SchedulingEngineUI.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusFleetScheduling.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehInspecThresholdUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehInspecThresholdUi.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusVehInspecThreshold.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MPArcEng.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapSvcsLyr.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapSvcsLyr.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapAVL2_z.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapAVL2_z.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapControls.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MPArcGISWPF.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFECtl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFECtl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ReportServerAdapter.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ReportInterface.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusAssetMaintenance.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCustFareServ.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCustFareServ.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8IPaymentGateway.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8IPaymentGateway.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DemoPGI.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DemoPGI.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Ticketing.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Ticketing.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusVerification.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RunSummaryCtl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RunSummaryCtl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GeoMapUI.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GeoMapUI.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusRMLinkMsg.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MsgGridCtrl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MsgGridCtrl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CSharpUtils.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppUtils.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ClusterAnalysis.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ClusterAnalysis.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ObjectSelection.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ObjectSelection.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TemplateCtrls.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TemplateCtrls.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppTemplateProcessor.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppTemplateProcessor.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PWebBrowser.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PWebBrowser.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapsCustom.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFEOTPDD.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RptFEOTPDD.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TypeAheadComboBox.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TypeAheadComboBox.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CapacitiesChart.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CapacitiesChart.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ChartControl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DynamicReporting.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\RMQS.exe",
+        "dest": "lib\\QS_Router\\cur\\[GIS_Code_setting_value]"
+    },
+    {
+        "source": "Library\\RMQS.ini",
+        "dest": "lib\\QS_Router\\cur\\[GIS_Code_setting_value]"
+    },
+    {
+        "source": "Library\\RMQS.Protocols.dll",
+        "dest": "lib\\QS_Router\\cur\\[GIS_Code_setting_value]"
+    },
+    {
+        "source": "Library\\R8ReportInterface.dll",
+        "dest": "lib\\QS_Router\\cur\\[GIS_Code_setting_value]"
+    },
+    {
+        "source": "Library\\RMRelease_QS.ver",
+        "dest": "lib\\QS_Router\\cur\\[GIS_Code_setting_value]"
+    },
+    {
+        "source": "Library\\ReadMe_QS.txt",
+        "dest": "lib\\QS_Router\\cur\\[GIS_Code_setting_value]"
+    },
+    {
+        "source": "Library\\R8LoadUtil.dll",
+        "dest": "lib\\QS_Router\\cur\\[GIS_Code_setting_value]"
+    },
+    {
+        "source": "Library\\R8CmpBase.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8Debug.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8GenericEnv.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8DisplayError.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8DisplayError.tlb",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8HostEnv.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8Rse.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8RseServerClient.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8Debug2.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8Geo.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8ReportServerAdapter.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Library\\R8RegDotNetDll.exe",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "ThirdPartyLibrary\\REGTLIB.exe",
+        "dest": "lib\\pkg\\cur\\QS_Servants"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessor.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessor.tlb",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessor_a.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMTemplateProcessor_a.tlb",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\RMQS.exe",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\RMQS.ini",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\RMQS.Protocols.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8ReportInterface.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\RMRelease_QS.ver",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\ReadMe_QS.txt",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\RMVersionUtil.exe",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\Interop.R8CmpBase.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\Interop.R8Debug.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\Interop.R8GenericEnv.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\Interop.R8HostEnv.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\Interop.R8PSettings.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8.TS.Rse.Protocols.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8ReportInterface.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8.TS.RSE.ComAdapter.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8CmpBaseForCSharp.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8DebugForCSharp.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8Debug2.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8LoadUtil.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8Accessible.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8CmpBase.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8Containers.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8Debug.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8DisplayError.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8DisplayError.tlb",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8GenericEnv.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8Geo.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8HostEnv.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8Rse.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8RSEServerAdapter.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8RseServerClient.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8StdUi.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8VersionInfo.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8ReportServerAdapter.dll",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\R8RegDotNetDll.exe",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "ThirdPartyLibrary\\REGTLIB.exe",
+        "dest": "lib\\pkg\\cur\\QS_Servants\\[GIS_Code_setting_value]\\Servant1"
+    },
+    {
+        "source": "Library\\Interop.ActiveBar2Library.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.ADODB.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.AFCustom.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.BoWSmartUI.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.GridEX20.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.IasHelperLib.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.IObjectSafetyTLB.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.MapObjects2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.MSXML2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8AddressSelect.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8CmpBase.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8DateTimePicker.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8Debug.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8GenericEnv.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8HostEnv.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8IData.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8Map.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8MapAVL.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8PluginBase.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8SearchControl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.Scripting.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.VBA.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\stdole.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8MapInterface.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8MapSymbol.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8BusCoord.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8MapControls.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.MSComctlLib.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8TreeCtrls.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Interop.R8GEOLib.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\MSComctlLib.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.ActiveBar2Library.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.BoWSmartUI.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.GridEX20.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.R8AddressSelect.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.R8DateTimePicker.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.R8Map.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.R8MapAVL.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.R8SearchControl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.R8MapControls.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.R8TreeCtrls.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\AxInterop.MapObjects2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RegDotNetDll.exe",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FavoriteTrips.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FavoriteTrips.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FavoriteAddresses.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FavoriteAddresses.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DateTimeCtl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DateTimeCtl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AuditLogCtrl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AuditLogCtrl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehicleMaintenanceCtrl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8VehicleMaintenanceCtrl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MessageEditorCtl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MessageEditorCtl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AdHocCtl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AdHocCtl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TabControl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TabControl.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ManualSched.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ManualSched.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FavoriteAddressUI.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8FavoriteAddressUI.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DynamicReporting.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAddresses.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PBilling.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCoordination.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCustomers.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PDispatch.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PDrivers.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PFundSrc.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PIncidents.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PIncidents2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PIncidents2.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PPortal.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PReporting.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PSchedule.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PServices.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PSettings.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PTrips.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PVehicles.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PVerification.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAVLPlayback.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAVLActivity.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAVLActivity.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PWOSched.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PWOSched.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PWOMgnt.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PWOMgnt.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PMessageBoard.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PMessageBoard.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PNotifications.ocx",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PWorkOrders.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PWorkOrders.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAssets.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAssets.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAlerts.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAlerts.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PSettings2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PSettings2.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAVLActivity_z.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAVLActivity_z.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAssetMaint.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PAssetMaint.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppMainDatabaseForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppMainSystemForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CmpBaseForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DataAccessForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DateTimePickerForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DebugForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GenericEnvForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GenericEnvForCSharp.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8HostEnvForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PluginBaseForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8StdUIForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AuditLog.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppMainDatabaseForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppMainSystemForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppMainSystemForCSharp.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CmpBaseForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DataAccessForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8TCPProtocol.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RMXSProtocol.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RMXSProtocol.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Accessible.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ValidateSched.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ValidateSched.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusActualAnalyze.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusActualAnalyze.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppMain.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RseMain.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AppGeoUtil.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\neteng.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\ReadMe.txt",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\GOODBYE.wav",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Logoff.wav",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\CreateRouteMatchShortcuts.vbs",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Load.exe",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Load3G.exe",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8LoadUtil.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8Load3G.exe.config",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\RMNetSolveService3.exe",
+        "dest": "lib\\NS\\cur"
+    },
+    {
+        "source": "Library\\RMNetSolveService3_64.exe",
+        "dest": "lib\\NS\\cur"
+    },
+    {
+        "source": "Library\\R8RseService.exe",
+        "dest": "lib\\RseService\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMBridge32.dll",
+        "dest": "lib\\RseService\\cur"
+    },
+    {
+        "source": "Library\\R8RseService64.exe",
+        "dest": "lib\\RseService\\cur"
+    },
+    {
+        "source": "Suite.5.x-6.x\\Library\\RMBridge64.dll",
+        "dest": "lib\\RseService\\cur"
+    },
+    {
+        "source": "Library\\RouteMatchRegTypicalCurrentUser.reg_txt",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\RouteMatchRegTypicalLocalMachine.reg_txt",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\RMRelease.ver",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\RMRelease.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_FR.ver",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_FR.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_DR.ver",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_DR.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_FM.ver",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_FM.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_ML.ver",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_ML.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_TAM.ver",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_TAM.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_TAML.ver",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Release_TAML.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\RMToolbarAndMenu.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\RMToolbarAndMenu_NoDBC.rmc",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Help\\RMADDRESSGEO.HLP",
+        "dest": "lib\\pkg\\cur\\Help"
+    },
+    {
+        "source": "Library\\Help\\RMAVAILABILITY.HLP",
+        "dest": "lib\\pkg\\cur\\Help"
+    },
+    {
+        "source": "Library\\Help\\RMMAP.HLP",
+        "dest": "lib\\pkg\\cur\\Help"
+    },
+    {
+        "source": "\\\\routematch\\rmdfs\\Data\\Documentation\\Product Documentation\\RouteMatch CATS\\RM Admin Guide\\RMDOC_RM#6.0_Administrators_Guide_DV#1.0.pdf",
+        "dest": "lib\\pkg\\cur\\Documentation\\RM Admin Guide"
+    },
+    {
+        "source": "\\\\routematch\\rmdfs\\Data\\Documentation\\Product Documentation\\RouteMatch CATS\\RM User Guide\\RMDOC_RM#6.0_Users_Guide_DV#1.5.pdf",
+        "dest": "lib\\pkg\\cur\\Documentation\\RM User Guide"
+    },
+    {
+        "source": "\\\\routematch\\rmdfs\\Data\\Documentation\\Product Documentation\\RouteMatch CATS\\What's New\\RMDOC_RM#6.0_What's_New_DV#1.0.pdf",
+        "dest": "lib\\pkg\\cur\\Documentation\\What's New"
+    },
+    {
+        "source": "Library\\Help\\RouteMatchHelp.chm",
+        "dest": "lib\\pkg\\cur\\Help"
+    },
+    {
+        "source": "Source\\Scheduler\\XML StyleSheets\\RSEMessages.xsl",
+        "dest": "RSEWorkFolder"
+    },
+    {
+        "source": "Source\\Scheduler\\XML StyleSheets\\RSESummary.xsl",
+        "dest": "RSEWorkFolder"
+    },
+    {
+        "source": "Source\\Scheduler\\XML StyleSheets\\RSEFleetSummary.xsl",
+        "dest": "RSEWorkFolder"
+    },
+    {
+        "source": "Source\\Scheduler\\XML StyleSheets\\RSESuggestions.xsl",
+        "dest": "RSEWorkFolder"
+    },
+    {
+        "source": "Source\\Scheduler\\XML StyleSheets\\RSEVariances.xsl",
+        "dest": "RSEWorkFolder"
+    },
+    {
+        "source": "Library\\Janus.Windows.ButtonBar.v2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.CalendarCombo.v2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.Common.v2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.ExplorerBar.v2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.GridEX.v2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.Schedule.v2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.TimeLine.v2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.UI.v2.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Data.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.ButtonBar.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.CalendarCombo.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.Common.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.ExplorerBar.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.FilterEditor.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.GridEX.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.Ribbon.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.Schedule.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.TimeLine.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\Janus.Windows.UI.v4.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8AddressSelectForCSharp.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8BusCA.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CAGUIControls.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CAGUIControls.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CAInterfaces.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CAVisualHeadways.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8DateSpanTabControl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8GridControl.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8MapInt.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAAnalysis.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAAnalysis.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCADispatching.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCADispatching.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAMonitoring.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAMonitoring.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAScheduling.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAScheduling.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAUtilities.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAUtilities.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PFRAuthoring.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PFRAuthoring.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAVerification.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PCAVerification.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PDebugger.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8PDebugger.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8RecurrencePatternUi.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ColorPicker.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8ColorPicker.tlb",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CARouteShoutNotificationsUI.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\R8CommonControls.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client32\\RuntimeCoreNET.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client32"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client32\\ArcGISRuntimeLogging.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client32"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client32\\esrigps.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client32"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client32\\log4cxx.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client32"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client32\\msvcp120.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client32"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client32\\msvcr120.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client32"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client64\\RuntimeCoreNET.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client64"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client64\\ArcGISRuntimeLogging.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client64"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client64\\esrigps.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client64"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client64\\log4cxx.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client64"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client64\\msvcp120.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client64"
+    },
+    {
+        "source": "Library\\ArcGISRuntime10.2.5\\client64\\msvcr120.dll",
+        "dest": "lib\\pkg\\cur\\ArcGISRuntime10.2.5\\client64"
+    },
+    {
+        "source": "Library\\ESRI.ArcGIS.Client.Behaviors.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\ESRI.ArcGIS.Client.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\ESRI.ArcGIS.Client.Toolkit.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\System.Windows.Interactivity.dll",
+        "dest": "lib\\pkg\\cur"
+    },
+    {
+        "source": "Library\\PluginToolbarIcons\\RMPay_24x24.bmp",
+        "dest": "lib\\pkg\\cur\\PluginToolbarIcons"
+    },
+    {
+        "source": "Library\\PluginToolbarIcons\\RMPay_32x32.bmp",
+        "dest": "lib\\pkg\\cur\\PluginToolbarIcons"
+    },
+    {
+        "source": "Library\\PluginToolbarIcons\\WebDemandTrips_24x24.bmp",
+        "dest": "lib\\pkg\\cur\\PluginToolbarIcons"
+    },
+    {
+        "source": "Library\\PluginToolbarIcons\\WebDemandTrips_32x32.bmp",
+        "dest": "lib\\pkg\\cur\\PluginToolbarIcons"
+    },
+    {
+        "source": "Library\\PluginWebPages\\Demand\\DemandTripInfo_template.html",
+        "dest": "lib\\pkg\\cur\\PluginWebPages\\Demand"
+    },
+    {
+        "source": "Library\\PluginWebPages\\Demand\\ExternalTripPage.html",
+        "dest": "lib\\pkg\\cur\\PluginWebPages\\Demand"
+    },
+    {
+        "source": "Library\\PluginWebPages\\Demand\\Plugin.html",
+        "dest": "lib\\pkg\\cur\\PluginWebPages\\Demand"
+    },
+    {
+        "source": "Library\\PluginWebPages\\RMPay\\Plugin.html",
+        "dest": "lib\\pkg\\cur\\PluginWebPages\\RMPay"
+    }
+]
