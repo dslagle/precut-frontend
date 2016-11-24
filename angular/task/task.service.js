@@ -9,25 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var jira_service_1 = require('./jira/jira.service');
-var AppComponent = (function () {
-    function AppComponent(jira) {
-        this.jira = jira;
-        this.title = "RM Precut";
+var tasks_1 = require('./tasks');
+var TaskService = (function () {
+    function TaskService() {
     }
-    AppComponent.prototype.ngOnInit = function () {
-        this.jira.getFixVersions()
-            .subscribe(function (values) { return console.log(values); });
+    TaskService.prototype.getTasks = function () {
+        return tasks_1.default;
     };
-    AppComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "my-app",
-            templateUrl: "app.component.html"
-        }), 
-        __metadata('design:paramtypes', [jira_service_1.JiraService])
-    ], AppComponent);
-    return AppComponent;
+    TaskService = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [])
+    ], TaskService);
+    return TaskService;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.TaskService = TaskService;
+//# sourceMappingURL=task.service.js.map

@@ -7,37 +7,44 @@ import { HeroDetailComponent } from './hero/hero-detail.component';
 import { HeroesComponent } from './hero/heroes.component';
 import { HeroService }   from './hero/hero.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { TaskService } from './task/task.service';
+import { TaskComponent } from './task/task.component';
+import { TaskListComponent } from './task/task-list.component';
+import { JiraService } from './jira/jira.service';
+import { HttpModule} from '@angular/http';
+import { ReleaseInputComponent } from './jira/release-input.component';
 
 @NgModule({
   imports:      [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot([
-      {
-        path: 'heroes',
-        component: HeroesComponent
-      },
-      {
-        path: 'dashboard',
-        component: DashboardComponent
-      },
-      {
-        path: 'detail/:id',
-        component: HeroDetailComponent
-      },
-      {
-        path: '',
-        redirectTo: '/dashboard',
-        pathMatch: 'full'
-      }
-    ], { useHash: true })
+    HttpModule
+    // RouterModule.forRoot([
+    //   {
+    //     path: 'heroes',
+    //     component: HeroesComponent
+    //   },
+    //   {
+    //     path: 'dashboard',
+    //     component: DashboardComponent
+    //   },
+    //   {
+    //     path: 'detail/:id',
+    //     component: HeroDetailComponent
+    //   },
+    //   {
+    //     path: '',
+    //     redirectTo: '/dashboard',
+    //     pathMatch: 'full'
+    //   }
+    //],{ useHash: true })
   ],
-  providers:    [ HeroService ],
+  providers:    [ TaskService, JiraService ],
   declarations: [
     AppComponent,
-    HeroDetailComponent,
-    HeroesComponent,
-    DashboardComponent
+    TaskComponent,
+    TaskListComponent,
+    ReleaseInputComponent
   ],
   bootstrap:    [ AppComponent ]
 })

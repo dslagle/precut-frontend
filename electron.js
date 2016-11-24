@@ -7,12 +7,13 @@ let main;
 
 app.on("ready", (e) => {
     main = new Window({
-        width: 1000,
-        height: 1000
+        width: 2000,
+        height: 1500
     });
 
     main.loadURL(`file://${__dirname}/main.html`);
-    //main.webContents.openDevTools();
+    //main.setFullScreen(true);
+    main.webContents.openDevTools();
 
     main.on("close", (e) => {
         console.log("closed");

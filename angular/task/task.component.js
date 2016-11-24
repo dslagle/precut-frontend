@@ -9,25 +9,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var jira_service_1 = require('./jira/jira.service');
-var AppComponent = (function () {
-    function AppComponent(jira) {
-        this.jira = jira;
-        this.title = "RM Precut";
+var task_1 = require('./task');
+var TaskComponent = (function () {
+    function TaskComponent() {
     }
-    AppComponent.prototype.ngOnInit = function () {
-        this.jira.getFixVersions()
-            .subscribe(function (values) { return console.log(values); });
-    };
-    AppComponent = __decorate([
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', task_1.Task)
+    ], TaskComponent.prototype, "task", void 0);
+    TaskComponent = __decorate([
         core_1.Component({
-            moduleId: module.id,
-            selector: "my-app",
-            templateUrl: "app.component.html"
+            selector: "tr[task]",
+            template: "\n        <td>{{task.status}}</td>\n        <td>{{task.name}}</td>\n    ",
+            styles: [""]
         }), 
-        __metadata('design:paramtypes', [jira_service_1.JiraService])
-    ], AppComponent);
-    return AppComponent;
+        __metadata('design:paramtypes', [])
+    ], TaskComponent);
+    return TaskComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.TaskComponent = TaskComponent;
+//# sourceMappingURL=task.component.js.map

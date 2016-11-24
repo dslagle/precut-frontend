@@ -10,13 +10,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var forms_1 = require('@angular/forms');
-var router_1 = require('@angular/router');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
-var hero_detail_component_1 = require('./hero/hero-detail.component');
-var heroes_component_1 = require('./hero/heroes.component');
-var hero_service_1 = require('./hero/hero.service');
-var dashboard_component_1 = require('./dashboard/dashboard.component');
+var task_service_1 = require('./task/task.service');
+var task_component_1 = require('./task/task.component');
+var task_list_component_1 = require('./task/task-list.component');
+var jira_service_1 = require('./jira/jira.service');
+var http_1 = require('@angular/http');
+var release_input_component_1 = require('./jira/release-input.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -25,32 +26,14 @@ var AppModule = (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 forms_1.FormsModule,
-                router_1.RouterModule.forRoot([
-                    {
-                        path: 'heroes',
-                        component: heroes_component_1.HeroesComponent
-                    },
-                    {
-                        path: 'dashboard',
-                        component: dashboard_component_1.DashboardComponent
-                    },
-                    {
-                        path: 'detail/:id',
-                        component: hero_detail_component_1.HeroDetailComponent
-                    },
-                    {
-                        path: '',
-                        redirectTo: '/dashboard',
-                        pathMatch: 'full'
-                    }
-                ], { useHash: true })
+                http_1.HttpModule
             ],
-            providers: [hero_service_1.HeroService],
+            providers: [task_service_1.TaskService, jira_service_1.JiraService],
             declarations: [
                 app_component_1.AppComponent,
-                hero_detail_component_1.HeroDetailComponent,
-                heroes_component_1.HeroesComponent,
-                dashboard_component_1.DashboardComponent
+                task_component_1.TaskComponent,
+                task_list_component_1.TaskListComponent,
+                release_input_component_1.ReleaseInputComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

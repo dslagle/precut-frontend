@@ -26,6 +26,7 @@
     "@angular/upgrade": "~2.1.1",
     "angular-in-memory-web-api": "~0.1.13",
     "core-js": "^2.4.1",
+    "jquery": "^3.1.1",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.39",
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "@types/core-js": "^0.9.34",
+    "@types/mongoose": "^4.5.42",
     "@types/node": "^6.0.45",
     "typescript": "^2.0.3"
   }

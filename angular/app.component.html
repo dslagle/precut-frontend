@@ -1,6 +1,12 @@
-<h1>{{title}}</h1>
-<nav>
-    <a routerLink="/dashboard">Dashboard</a>
-    <a routerLink="/heroes">Heroes</a>
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <span id="brand-name">RM</span>
+            </a>
+        </div>
+        <version-selector></version-selector>
+    </div>
 </nav>
-<router-outlet></router-outlet>
+
+<task-list></task-list>
