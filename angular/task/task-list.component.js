@@ -15,7 +15,9 @@ var TaskListComponent = (function () {
         this.taskService = taskService;
     }
     TaskListComponent.prototype.ngOnInit = function () {
-        this.tasks = this.taskService.getTasks();
+        var _this = this;
+        this.taskService.getTasks()
+            .subscribe(function (tasks) { return _this.tasks = tasks; });
     };
     TaskListComponent.prototype.onSelect = function (task) {
         this.selectedTask = task;
@@ -24,7 +26,7 @@ var TaskListComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: "task-list",
-            template: "\n        <ul class=\"heroes\">\n            <li *ngFor=\"let t of tasks\" (click)=\"onSelect(t)\" [class.selected]=\"t === selectedTask\">\n                <span class=\"badge\">{{t.status}}</span> {{t.name}}\n            </li>\n        </ul>\n    ",
+            template: "\n        <div class=\"list-group\">\n            <a style=\"cursor: default;\" class=\"list-group-item\" *ngFor=\"let t of tasks\" (click)=\"onSelect(t)\" [class.active]=\"t === selectedTask\">{{t.name}}</a>\n        </div>\n    ",
             styleUrls: [
                 "task-list.component.css"
             ]

@@ -9,18 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var Message = (function () {
-    function Message() {
-        this.content = "This is a message";
+var CutService = (function () {
+    function CutService() {
     }
-    Message = __decorate([
-        core_1.Component({
-            selector: "message",
-            templateUrl: "./message.template.html"
-        }), 
+    CutService.prototype.makeCut = function (cut) {
+    };
+    CutService = __decorate([
+        core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], Message);
-    return Message;
+    ], CutService);
+    return CutService;
 }());
-exports.Message = Message;
-//# sourceMappingURL=message.component.js.map
+exports.CutService = CutService;
+//# sourceMappingURL=cut.service.js.map

@@ -1,8 +1,5 @@
-import { CutParams } from '../cut/cut-params';
-
 export class Task {
+    id: string;
     name: string;
     status: number;
-    
-    action: (parms: CutParams) => void;
 }

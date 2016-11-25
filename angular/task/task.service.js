@@ -9,16 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var tasks_1 = require('./tasks');
+var http_1 = require('@angular/http');
 var TaskService = (function () {
-    function TaskService() {
+    function TaskService(http) {
+        this.http = http;
     }
     TaskService.prototype.getTasks = function () {
-        return tasks_1.default;
+        return this.http.get("http://localhost:9000/task")
+            .map(function (response) {
+            var data = response.json();
+            return data;
+        });
     };
     TaskService = __decorate([
         core_1.Injectable(), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [http_1.Http])
     ], TaskService);
     return TaskService;
 }());

@@ -6,11 +6,9 @@ import { TaskService } from './task.service';
     moduleId: module.id,
     selector: "task-list",
     template: `
-        <ul class="heroes">
-            <li *ngFor="let t of tasks" (click)="onSelect(t)" [class.selected]="t === selectedTask">
-                <span class="badge">{{t.status}}</span> {{t.name}}
-            </li>
-        </ul>
+        <div class="list-group">
+            <a style="cursor: default;" class="list-group-item" *ngFor="let t of tasks" (click)="onSelect(t)" [class.active]="t === selectedTask">{{t.name}}</a>
+        </div>
     `,
     styleUrls: [
         "task-list.component.css"
@@ -24,7 +22,8 @@ export class TaskListComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        this.tasks = this.taskService.getTasks();
+        this.taskService.getTasks()
+            .subscribe(tasks => this.tasks = tasks);
     }
 
     onSelect(task: Task): void {
