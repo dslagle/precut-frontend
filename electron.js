@@ -1,12 +1,12 @@
-const electron = require("electron");
+const electron = require('electron');
+
 const app = electron.app;
-
-const Window = electron.BrowserWindow;
-
 let main;
 
+const tasks = require('./angular/task/tasks');
+
 app.on("ready", (e) => {
-    main = new Window({
+    main = new electron.BrowserWindow({
         width: 2000,
         height: 1500
     });
