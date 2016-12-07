@@ -15,7 +15,6 @@ export class ReleaseInputComponent implements OnInit {
 
     ngOnInit(): void {
         this.jira.getFixVersions()
-            .do(data => console.log(data))
             .subscribe((data) => {
                 this.versions = data.sort();
                 this.selectedVersion = this.selectedVersion || (this.versions[0]);

@@ -17,7 +17,6 @@ var ReleaseInputComponent = (function () {
     ReleaseInputComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.jira.getFixVersions()
-            .do(function (data) { return console.log(data); })
             .subscribe(function (data) {
             _this.versions = data.sort();
             _this.selectedVersion = _this.selectedVersion || (_this.versions[0]);

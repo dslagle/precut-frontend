@@ -21,12 +21,18 @@ var TaskListComponent = (function () {
     };
     TaskListComponent.prototype.onSelect = function (task) {
         this.selectedTask = task;
+        this.selectedTask.status = 2;
+        this.taskService.executeTask(task)
+            .subscribe(function (result) {
+            console.log(result);
+            task.status = 3;
+        }, function (err) { return task.status = 4; });
     };
     TaskListComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
             selector: "task-list",
-            template: "\n        <div class=\"list-group\">\n            <a style=\"cursor: default;\" class=\"list-group-item\" *ngFor=\"let t of tasks\" (click)=\"onSelect(t)\" [class.active]=\"t === selectedTask\">{{t.name}}</a>\n        </div>\n    ",
+            template: "\n        <div class=\"list-group\">\n            <a style=\"cursor: default;\" class=\"list-group-item\" *ngFor=\"let t of tasks\" (click)=\"onSelect(t)\" [class.active]=\"t === selectedTask\">\n                <img src=\"resources/ready.svg\" width=\"32\" height=\"32\" *ngIf=\"t.status === 1\" />\n                <img src=\"resources/ajax-loader.gif\" *ngIf=\"t.status === 2\" />\n                <img src=\"resources/ic_check_circle_black_18dp.png\" *ngIf=\"t.status === 3\" />\n                <img src=\"resources/ajax-loader.gif\" *ngIf=\"t.status === 4\" />\n                <span>{{t.name}}</span>\n            </a>\n        </div>\n    ",
             styleUrls: [
                 "task-list.component.css"
             ]

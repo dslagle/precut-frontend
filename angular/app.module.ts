@@ -13,6 +13,11 @@ import { TaskListComponent } from './task/task-list.component';
 import { JiraService } from './jira/jira.service';
 import { HttpModule} from '@angular/http';
 import { ReleaseInputComponent } from './jira/release-input.component';
+import { MapComponent } from './map/map.component';
+import { RouteListComponent } from './route/route-list.component';
+import { MapService } from './map/map.service';
+import { DataService } from './model/data.service';
+import { RouteFilterPipe } from './route/route-filter.pipe';
 
 @NgModule({
   imports:      [
@@ -39,12 +44,15 @@ import { ReleaseInputComponent } from './jira/release-input.component';
     //   }
     //],{ useHash: true })
   ],
-  providers:    [ TaskService, JiraService ],
+  providers:    [ TaskService, JiraService, MapService, DataService ],
   declarations: [
     AppComponent,
     TaskComponent,
     TaskListComponent,
-    ReleaseInputComponent
+    ReleaseInputComponent,
+    MapComponent,
+    RouteListComponent,
+    RouteFilterPipe
   ],
   bootstrap:    [ AppComponent ]
 })

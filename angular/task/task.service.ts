@@ -16,7 +16,11 @@ export class TaskService {
             });
     }
 
-    executeTask(t: Task) {
-        
+    executeTask(t: Task): Observable<any> {
+        return this.http.post(`http://localhost:9000/task/${t.id}/run`, { })
+            .map(response => {
+                let data = response.json();
+                return data;
+            });
     }
 }

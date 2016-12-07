@@ -21,6 +21,13 @@ var TaskService = (function () {
             return data;
         });
     };
+    TaskService.prototype.executeTask = function (t) {
+        return this.http.post("http://localhost:9000/task/" + t.id + "/run", {})
+            .map(function (response) {
+            var data = response.json();
+            return data;
+        });
+    };
     TaskService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [http_1.Http])

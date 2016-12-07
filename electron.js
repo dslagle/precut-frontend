@@ -13,7 +13,7 @@ app.on("ready", (e) => {
 
     main.loadURL(`file://${__dirname}/main.html`);
     //main.setFullScreen(true);
-    main.webContents.openDevTools();
+    //main.webContents.openDevTools();
 
     main.on("close", (e) => {
         console.log("closed");

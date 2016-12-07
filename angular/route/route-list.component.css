@@ -1,0 +1,7 @@
+select {
+    height: 900px;
+}
+
+li.active, li.active:hover {
+    background-color: #51A3FF;
+}
