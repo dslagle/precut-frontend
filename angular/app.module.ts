@@ -19,32 +19,24 @@ import { MapService } from './map/map.service';
 import { DataService } from './model/data.service';
 import { RouteFilterPipe } from './route/route-filter.pipe';
 
+import { FormatTimePipe, TrackVehicleComponent, GPSListComponent, VehicleInputComponent } from "./components/components";
+import { VehicleService, GPSTrackerService, GoogleService } from "./services/services";
+
 @NgModule({
-  imports:      [
+  imports: [
     BrowserModule,
     FormsModule,
     HttpModule
-    // RouterModule.forRoot([
-    //   {
-    //     path: 'heroes',
-    //     component: HeroesComponent
-    //   },
-    //   {
-    //     path: 'dashboard',
-    //     component: DashboardComponent
-    //   },
-    //   {
-    //     path: 'detail/:id',
-    //     component: HeroDetailComponent
-    //   },
-    //   {
-    //     path: '',
-    //     redirectTo: '/dashboard',
-    //     pathMatch: 'full'
-    //   }
-    //],{ useHash: true })
   ],
-  providers:    [ TaskService, JiraService, MapService, DataService ],
+  providers: [
+    TaskService,
+    JiraService,
+    MapService,
+    DataService,
+    VehicleService,
+    GPSTrackerService,
+    GoogleService
+  ],
   declarations: [
     AppComponent,
     TaskComponent,
@@ -52,7 +44,11 @@ import { RouteFilterPipe } from './route/route-filter.pipe';
     ReleaseInputComponent,
     MapComponent,
     RouteListComponent,
-    RouteFilterPipe
+    RouteFilterPipe,
+    VehicleInputComponent,
+    TrackVehicleComponent,
+    GPSListComponent,
+    FormatTimePipe
   ],
   bootstrap:    [ AppComponent ]
 })

@@ -1,0 +1,13 @@
+<form class="navbar-form navbar-left">
+    <div class="input-group">
+        <input type="text" class="form-control" aria-label="..." readonly [ngModel]="selectedVehicle.Name" [ngModelOptions]="{standalone: true}">
+        <div class="input-group-btn dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                <li *ngFor="let v of vehicles"><a style="cursor: default;" [class.selected]="v === selectedVehicle" (click)="onSelectVehicle(v)">{{v.Name}}</a></li>
+            </ul>
+        </div>
+    </div>
+</form>

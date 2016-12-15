@@ -8,26 +8,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var services_1 = require('./services/services');
-var AppComponent = (function () {
-    function AppComponent(gpsTrackerService) {
-        this.gpsTrackerService = gpsTrackerService;
-        this.title = "ETA Tracker";
+var core_1 = require("@angular/core");
+var FormatTimePipe = (function () {
+    function FormatTimePipe() {
     }
-    AppComponent.prototype.onTrackVehicle = function (v) {
-        console.log("Track Root: " + v.Name);
-        this.gpsTrackerService.trackGPS(v);
+    FormatTimePipe.prototype.transform = function (value) {
+        if (!value)
+            return "";
+        var temp = Math.abs(value);
+        var hours = Math.floor(temp / 3600);
+        temp = temp - (hours * 3600);
+        var minutes = Math.floor(temp / 60);
+        var seconds = temp - (minutes * 60);
+        return hours + "h " + minutes + "m " + seconds + "s";
     };
-    AppComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: "my-app",
-            templateUrl: "app.component.html"
+    FormatTimePipe = __decorate([
+        core_1.Pipe({
+            name: "timeFormat",
+            pure: true
         }), 
-        __metadata('design:paramtypes', [services_1.GPSTrackerService])
-    ], AppComponent);
-    return AppComponent;
+        __metadata('design:paramtypes', [])
+    ], FormatTimePipe);
+    return FormatTimePipe;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.FormatTimePipe = FormatTimePipe;
+//# sourceMappingURL=format-time.pipe.js.map

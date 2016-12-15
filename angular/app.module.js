@@ -23,6 +23,8 @@ var route_list_component_1 = require('./route/route-list.component');
 var map_service_1 = require('./map/map.service');
 var data_service_1 = require('./model/data.service');
 var route_filter_pipe_1 = require('./route/route-filter.pipe');
+var components_1 = require("./components/components");
+var services_1 = require("./services/services");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -33,7 +35,15 @@ var AppModule = (function () {
                 forms_1.FormsModule,
                 http_1.HttpModule
             ],
-            providers: [task_service_1.TaskService, jira_service_1.JiraService, map_service_1.MapService, data_service_1.DataService],
+            providers: [
+                task_service_1.TaskService,
+                jira_service_1.JiraService,
+                map_service_1.MapService,
+                data_service_1.DataService,
+                services_1.VehicleService,
+                services_1.GPSTrackerService,
+                services_1.GoogleService
+            ],
             declarations: [
                 app_component_1.AppComponent,
                 task_component_1.TaskComponent,
@@ -41,7 +51,11 @@ var AppModule = (function () {
                 release_input_component_1.ReleaseInputComponent,
                 map_component_1.MapComponent,
                 route_list_component_1.RouteListComponent,
-                route_filter_pipe_1.RouteFilterPipe
+                route_filter_pipe_1.RouteFilterPipe,
+                components_1.VehicleInputComponent,
+                components_1.TrackVehicleComponent,
+                components_1.GPSListComponent,
+                components_1.FormatTimePipe
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

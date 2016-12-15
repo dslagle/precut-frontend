@@ -15,9 +15,16 @@ var JiraService = (function () {
     function JiraService(http) {
         this.http = http;
         this.JIRA_KEY = "Basic ZHNsYWdsZTpNb29TaG9HYWlQYW4xMCE=";
+        this.API_URL = "http://localhost:9000/data";
         this.JIRA_URL = "http://jira.routematch.com/rest/api/2";
         this.VERSION_MATCH = /RM#\d{1,2}\.\d{1,2}\.\d{1,2}.+/;
     }
+    JiraService.prototype.getVehicles = function () {
+        var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
+        return this.http.get(this.API_URL + "/vehicle", { headers: headers })
+            .map(function (data) { return JSON.parse(data._body).map(function (v) { return v.InternalVehicleID; }); })
+            .catch(function (err) { return Rx_1.Observable.throw(err.json()); });
+    };
     JiraService.prototype.getFixVersions = function () {
         var _this = this;
         var headers = new http_1.Headers({ 'Content-Type': 'application/json', 'Authorization': this.JIRA_KEY });

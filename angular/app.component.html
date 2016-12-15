@@ -2,10 +2,12 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
-                <span id="brand-name">RM</span>
+                <span id="brand-name">Vehicle</span>
             </a>
         </div>
-        <version-selector></version-selector>
+        <vehicle-tracker (onTrackVehicle)="onTrackVehicle($event)"></vehicle-tracker>
     </div>
 </nav>
-<route-list></route-list>
+<div>
+    <gps-list></gps-list>
+</div>

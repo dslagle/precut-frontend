@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { JiraService } from './jira/jira.service';
+import { GPSTrackerService } from './services/services';
+import { Vehicle } from "./model/vehicle";
 
 @Component({
     moduleId: module.id,
@@ -7,13 +8,13 @@ import { JiraService } from './jira/jira.service';
     templateUrl: "app.component.html"
     //styleUrls: [ "app.component.css" ]
 })
-export class AppComponent implements OnInit {
-    constructor(private jira: JiraService) { }
+export class AppComponent {
+    constructor(private gpsTrackerService: GPSTrackerService) { }
 
-    title: string = "RM Precut";
+    title: string = "ETA Tracker";
 
-    ngOnInit(): void {
-        this.jira.getFixVersions()
-            .subscribe(values => console.log(values));
+    onTrackVehicle(v: Vehicle) {
+        console.log("Track Root: " + v.Name);
+        this.gpsTrackerService.trackGPS(v);
     }
 }
