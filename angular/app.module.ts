@@ -13,14 +13,6 @@ import { TaskListComponent } from './task/task-list.component';
 import { JiraService } from './jira/jira.service';
 import { HttpModule} from '@angular/http';
 import { ReleaseInputComponent } from './jira/release-input.component';
-import { MapComponent } from './map/map.component';
-import { RouteListComponent } from './route/route-list.component';
-import { MapService } from './map/map.service';
-import { DataService } from './model/data.service';
-import { RouteFilterPipe } from './route/route-filter.pipe';
-
-import { FormatTimePipe, TrackVehicleComponent, GPSListComponent, VehicleInputComponent } from "./components/components";
-import { VehicleService, GPSTrackerService, GoogleService } from "./services/services";
 
 @NgModule({
   imports: [
@@ -30,25 +22,13 @@ import { VehicleService, GPSTrackerService, GoogleService } from "./services/ser
   ],
   providers: [
     TaskService,
-    JiraService,
-    MapService,
-    DataService,
-    VehicleService,
-    GPSTrackerService,
-    GoogleService
+    JiraService
   ],
   declarations: [
     AppComponent,
     TaskComponent,
     TaskListComponent,
-    ReleaseInputComponent,
-    MapComponent,
-    RouteListComponent,
-    RouteFilterPipe,
-    VehicleInputComponent,
-    TrackVehicleComponent,
-    GPSListComponent,
-    FormatTimePipe
+    ReleaseInputComponent
   ],
   bootstrap:    [ AppComponent ]
 })

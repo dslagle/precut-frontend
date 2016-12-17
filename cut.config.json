@@ -1,7 +1,10 @@
 {
-    "baseDir": "",
-    "qaRemoteDir": "",
-    "qaServerDir": "",
-    "releaseRemoteDir": "",
-    "svnBaseUrl": ""
+    "projectBaseDir": "",
+    "svn": {
+        "svnTrunkURL": "https://subversion.routematch.local/",
+        "svnBranchBaseURL": ""
+    },
+    "outputDirs": [
+        ""
+    ]
 }
