@@ -7,11 +7,11 @@ const tasks = require('./angular/task/tasks');
 
 app.on("ready", (e) => {
     main = new electron.BrowserWindow({
-        width: 2000,
-        height: 1500
+        width: 200,
+        height: 150
     });
 
-    main.loadURL(`file://${__dirname}/main.html`);
+    //main.loadURL(`file://${__dirname}/main.html`);
     //main.setFullScreen(true);
     //main.webContents.openDevTools();
 
